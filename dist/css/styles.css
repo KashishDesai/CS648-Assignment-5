@@ -230,8 +230,7 @@ footer {
   @media screen and (max-width: 459px) {
     footer p,
     footer img {
-      float: none;
-      margin: 0px; } }
+      float: none; } }
 
 .social-media {
   margin: 0 auto;
@@ -241,15 +240,19 @@ footer {
     width: 36px;
     height: 36px;
     text-indent: -9999px; }
-  .social-media div.one {
-    background: url(../images/social-media.png) 0 0; }
-  .social-media div.two {
-    background: url(../images/social-media.png) -38px 0; }
-  .social-media div.three {
-    background: url(../images/social-media.png) -76px 0; }
-  .social-media div.four {
-    background: url(../images/social-media.png) -114px 0; }
+
+div.one {
+  background: url(../images/social-media.png) 0 0; }
+
+div.two {
+  background: url(../images/social-media.png) -38px 0; }
+
+div.three {
+  background: url(../images/social-media.png) -76px 0; }
+
+div.four {
+  background: url(../images/social-media.png) -114px 0; }
 
 .social-media div {
   float: left;
-  margin: 5px; }
+  margin-right: 5px; }

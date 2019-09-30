@@ -21,23 +21,28 @@ footer {
   img {
     @include break(459px) {
       float: none;
-      @include margin(0px);
+     // @include margin(0px);
     }
   }
 }
 .social-media {
+
+  @include margin(0 auto);
+  width: 165px;
+  
+
   a {
     display: block;
     @include width-height(36px, 36px);
     text-indent: -9999px;
   }
-  @include margin(0 auto);
-  width: 165px;
-  @include social-media();
+  
 }
+@include social-media();
+
 .social-media div {
   float: left;
-  @include margin(5px);
+  margin-right:5px;
 }
 
 
