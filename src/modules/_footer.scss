@@ -21,7 +21,7 @@ footer {
   img {
     @include break(459px) {
       float: none;
-     // @include margin(0px);
+     @include margin(0px);
     }
   }
 }

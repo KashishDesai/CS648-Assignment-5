@@ -4,7 +4,7 @@ body {
   font-size: 1em;
   line-height: 2em;
   background: url(../images/bg.gif) #FFF repeat-x;
-  margin: 0; }
+  margin: 0px; }
 
 main {
   width: 940px;
@@ -68,9 +68,9 @@ main {
         float: none; } }
     #content #products img {
       float: left;
-      margin: 0px 20px 0px 0px; }
+      margin-right: 20px; }
     #content #products article {
-      margin: 0px 0px 40px 0px; }
+      margin-bottom: 40px; }
     #content #products h4 {
       line-height: 1em; }
   #content #testimonials {
@@ -100,10 +100,10 @@ header {
     height: auto; }
     @media screen and (max-width: 767px) {
       header img {
-        margin: 0px 0px 100px 0px; } }
+        margin-bottom: 100px; } }
     @media screen and (max-width: 459px) {
       header img {
-        margin: 0px 0px 80px 0px; } }
+        margin-bottom: 80px; } }
   header h1 {
     color: #E65C43;
     font-weight: 100;
@@ -118,13 +118,13 @@ header {
   @media screen and (max-width: 459px) {
     header h1:nth-of-type(1) {
       font-size: 1.4em;
-      margin: 0px 0px 20px 0px; } }
+      margin-bottom: 20px; } }
   header h2 {
     color: #FFF;
     font-weight: 900;
     font-size: 2.5em;
     line-height: 0;
-    margin: 0px 0px 70px 0px; }
+    margin-bottom: 70px; }
     @media screen and (max-width: 959px) {
       header h2 {
         font-size: 1.5em; } }
@@ -139,7 +139,7 @@ header {
     font-weight: 400;
     font-size: 2em;
     line-height: 0;
-    margin: 0px 0px 50px 0px; }
+    margin-bottom: 50px; }
     @media screen and (max-width: 767px) {
       header h3 {
         font-size: 1.5em; } }
@@ -183,14 +183,14 @@ nav {
       margin-bottom: 40px !important; } }
   nav ul {
     list-style-type: none;
-    margin: 95px 0px 0px 0px; }
+    margin-top: 95px; }
     @media screen and (max-width: 959px) {
       nav ul {
         margin-top: 0; } }
     nav ul li {
       display: inline;
       font-size: 0.8em;
-      margin: 0px 10px 0px 0px; }
+      margin-right: 10px; }
       @media screen and (max-width: 959px) {
         nav ul li {
           font-size: 1em;
@@ -230,7 +230,8 @@ footer {
   @media screen and (max-width: 459px) {
     footer p,
     footer img {
-      float: none; } }
+      float: none;
+      margin: 0px; } }
 
 .social-media {
   margin: 0 auto;

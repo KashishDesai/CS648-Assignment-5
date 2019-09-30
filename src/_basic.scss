@@ -4,7 +4,7 @@ body {
   font-size: 1em;
   line-height: 2em;
   background: url(#{$image-path}/bg.gif) $white repeat-x;
-  margin: 0;
+  @include margin(0px);
 }
 main {
   width: 940px;

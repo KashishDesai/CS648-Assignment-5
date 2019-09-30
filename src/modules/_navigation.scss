@@ -29,14 +29,14 @@ nav {
   }
   ul {
     list-style-type: none;
-    @include margin(95px 0px 0px 0px);
+    margin-top: 95px;
     @include break(959px) {
       margin-top: 0;
     }
     li {
       display: inline;
       font-size: 0.8em;
-      @include margin(0px 10px 0px 0px);
+      margin-right: 10px;
       @include break(959px) {
         font-size: 1em;
         @include margin(0px 10px);
